@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/challenge.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="tulisan-tengah">GOALS</h3>
+    <!-- navbar -->
+    <div id="navbar-custom">
+        <p>home</p>
+        <p>profile</p>
+        <p>setting</p>
+        <p>inventory</p>
+    </div>
+
+    <!-- head-style -->
+    <div class="header-style">
+        <div style="display: inline-flex;">
+            <img src="Images/TMMIN Krw Main office.jpg" alt="this is photo profile" width="150" height="150">
+            <div class="detail-person" id="header-details-challenge">
+                <h1 id="fullname-user-challenge" style="margin-bottom": 5px>Fattahillah</h1><br>
+                <h4 id="fullrole-challenge" style="margin-top": 5px>Front End Designer</h4><br>
+                <button style="display: inline-flex; margin: 30px;margin-bottom:5px; background-color: blue;color: white;">Kontak</button>
+                <button>Resume</button>
+            </div>
+            <div class="detail-person1">
+                <h4 style="margin-top: 5px; margin-left: 200px;">Availability :</h4>
+                <h4 id="fullavailable-challenge" style="margin-top: 5px; margin-left: 10px;"> </h4>
+                <br>
+                <h4 style="margin-top: 5px; margin-left: 200px;">Usia :</h4>
+                <h4 id="fullage-challenge" style="margin-top: 5px; margin-left: 60px"> </h4>
+                <br>
+                <h4 style="margin-top: 5px; margin-left: 200px">Lokasi :</h4>
+                <h4 id="fulllocation-challenge" style="margin-top: 5px; margin-left: 44px"></h4>
+                <br>
+                <h4 style="margin-top: 5px;margin-left: 200px">Pengalaman :</h4>
+                <h4 id="fullexperience-challenge" style="margin-top: 5px; margin-left: 6px"> </h4>
+                <br>
+                <h4 style="margin-top: 5px;margin-left: 200px">Email :</h4>
+                <h4 id="fullemail-challenge" style="margin-top: 5px; margin-left: 50px"></h4>
+                <br>
+             </div>
+        </div>
+    </div>
+    
+    <!-- form-style -->
+    <div class="header-style" id="box-form">
+        <form action="" onsubmit="return handleSubmit(event)">
+            <label for="">Name</label><br>
+            <input type="text" id="name-user-challenge" style="width: 100%;" placeholder="isi nama anda"> <br>
+    
+            <label for="">Role</label><br>
+            <input type="text" id="role-challenge" style="width: 100%;" placeholder="isi Role anda"> <br>
+    
+            <label for="">availibilty</label><br>
+            <input type="text" id="available-challenge" style="width: 100%;" placeholder="isi keluangan waktu anda"> <br>
+    
+            <label for="">age</label><br>
+            <input type="text" id="age-challenge" style="width: 100%;" placeholder="isi umur anda"> <br>
+    
+            <label for="">location</label><br>
+            <input type="text" id="location-challenge" style="width: 100%;" placeholder="isi lokasi rumah anda"> <br>
+    
+            <label for="">experience</label><br>
+            <input type="text" id="experience-challenge" style="width: 100%;" placeholder="isi Pengalaman anda"> <br>
+    
+            <label for="">email</label><br>
+            <input type="email" id="email-challenge" style="width: 100%;" placeholder="isi alamat email anda"><br>
+            <input id="submit-style" type="submit" value="Send">
+        </form>
+    </div>
+    <script src="JS/Challenge.JS">
+    </script>
+</body>
+</html>
